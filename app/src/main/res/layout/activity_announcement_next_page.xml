@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnnouncementNextPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="5dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/timetable_back_icon"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:onClick="callDashBoard"
+            android:src="@drawable/back_icon"
+            android:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Announcement"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <TextView
+            android:drawableStart="@drawable/message_icon"
+            android:id="@+id/announc_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:id="@+id/announc_Date"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desrciption"
+            android:id="@+id/announc_discription"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/uploaded_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uploaded By:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/uploaded_by"
+                android:text="Name of Uploader"
+                android:id="@+id/uploader_name"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp">
+            <TextView
+                android:layout_below="@+id/uploader_name"
+                android:id="@+id/attachment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Attachment:"
+                android:drawableStart="@drawable/attachment_icon"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/attachment"
+                android:text="Files"
+                android:id="@+id/attachment_file"/>
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

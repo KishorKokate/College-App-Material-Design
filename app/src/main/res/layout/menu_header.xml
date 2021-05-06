@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:background="@color/appcolor"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/profile_background" />
+
+    <TextView
+        android:id="@+id/idnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/menu_slogan"
+        android:layout_gravity="center"
+        android:fontFamily="@font/joti_one"
+        android:text="Kishor Kokate"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/menu_slogan"
+        android:layout_gravity="center"
+        android:fontFamily="@font/joti_one"
+        android:text="71916489D"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/menu_slogan"
+        android:layout_gravity="center"
+        android:fontFamily="@font/joti_one"
+        android:text="kishorkokate02@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/menu_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="B.E(Computer Engineering)(2018)"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+    <Button
+        android:id="@+id/view_profile_btn"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view profile"
+        android:layout_gravity="center"
+        android:background="#00000000"
+        android:textColor="@color/black"
+        android:textSize="14dp"/>
+
+
+</LinearLayout>

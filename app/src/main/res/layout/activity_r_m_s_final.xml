@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RMSFinalActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/RMSFinal_back_icon"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:onClick="callRMSREquest"
+            android:src="@drawable/back_icon"
+            android:tint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/RMSFinal_back_icon"
+            android:text="Log RMS Request"
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:elevation="5dp"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_subject"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:hint="Subject"
+                android:textColor="@color/black"
+                app:endIconMode="clear_text"
+                app:hintAnimationEnabled="true"
+                app:hintTextColor="@color/black"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phone_input"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_subject"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                android:hint="Contact Number"
+                android:textColor="@color/black"
+                app:endIconMode="clear_text"
+
+                app:hintAnimationEnabled="true"
+                app:hintTextColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_desc"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone_input"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+
+
+                android:focusable="true"
+
+                android:hint="Description"
+
+                app:boxStrokeWidthFocused="2dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="500"
+                app:endIconMode="clear_text"
+                app:hintAnimationEnabled="true"
+                app:hintTextColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#00000000"
+                    android:inputType="textMultiLine" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_desc"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/btn_round"
+                android:elevation="8dp"
+                android:text="Submit"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

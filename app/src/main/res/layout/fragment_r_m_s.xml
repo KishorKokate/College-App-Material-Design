@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RMSFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:padding="10dp"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/log_rms_bar">
+
+        <ImageView
+            android:id="@+id/menu_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Log RMS Request"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/white"
+        android:layout_marginTop="200dp"
+        android:elevation="8dp"
+        android:padding="10dp">
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/check1"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/Statement1"
+            android:textSize="16dp">
+
+        </com.google.android.material.checkbox.MaterialCheckBox>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check1"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:text="@string/Statement2"
+            android:textSize="16dp">
+
+        </com.google.android.material.checkbox.MaterialCheckBox>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/check3"
+            android:layout_width="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check2"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:checked="true"
+            android:text="@string/Statement3"
+            android:textSize="16dp">
+
+        </com.google.android.material.checkbox.MaterialCheckBox>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/check4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check3"
+            android:layout_marginBottom="10dp"
+            android:checked="true"
+            android:text="@string/Statement4"
+            android:textSize="16dp">
+
+        </com.google.android.material.checkbox.MaterialCheckBox>
+
+        <Button
+            android:id="@+id/agree_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/check4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_round"
+            android:elevation="5dp"
+
+            android:layout_marginBottom="20dp"
+            android:text="I AGREE"
+            android:textAllCaps="true"
+            android:textSize="16dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

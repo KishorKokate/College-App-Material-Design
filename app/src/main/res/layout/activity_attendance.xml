@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Attendance">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <ImageView
+            android:onClick="callDashBoard"
+            android:id="@+id/back_icon"
+            android:layout_width="40dp"
+            android:tint="@color/black"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/back_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+
+            android:gravity="center"
+            android:text="Attendance"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:elevation="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="aggregate attendance"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/aggregate_percentage"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:text="91%"
+            android:textAlignment="center"
+            android:background="@color/appcolor"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/attendance_rcv"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

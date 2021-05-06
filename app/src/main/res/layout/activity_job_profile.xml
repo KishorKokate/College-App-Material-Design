@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JobProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:onClick="callPlacementDrive"
+            android:src="@drawable/back_icon"
+            android:tint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="55dp"
+
+            android:gravity="center"
+            android:text="Job Profile"
+            android:textColor="@color/black"
+
+            android:textSize="22dp" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:elevation="8dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/appcolor"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/JPcompany_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="true"
+                    android:text="company Name"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:textAlignment="center"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/batch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Batch Year:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/batch_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2022"
+                    android:layout_toRightOf="@+id/batch"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/bond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bond Details:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/bond_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_toRightOf="@+id/bond"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/contact_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Details1"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/contact_deatails_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teacher Name"
+                    android:layout_toRightOf="@+id/contact_details"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/selection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selection Procedure:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/selection_procedure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="procedure"
+                    android:layout_toRightOf="@+id/selection"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/skill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skills Required:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/skill_required"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Good Communication and Technical Skill"
+                    android:layout_toRightOf="@+id/skill"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/stream"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stream Name:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/stream_name_JP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COMP/IT"
+                    android:layout_toRightOf="@+id/stream"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test Mode:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/test_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="online"
+                    android:layout_toRightOf="@+id/test"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/vacancies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vacancies:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/vacancies_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:layout_toRightOf="@+id/vacancies"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/venue_JP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Batch Year:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/venue_name_JP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2022"
+                    android:layout_toRightOf="@+id/venue_JP"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/designation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Designation:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/designation_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="intern"
+                    android:layout_toRightOf="@+id/designation"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/eligibility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eligibility:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/eligibility_criteria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="throught 70 percent "
+                    android:layout_toRightOf="@+id/eligibility"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/job_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Job Location:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/job_location_namer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Banglore "
+                    android:layout_toRightOf="@+id/job_location"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/job_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Job Profile:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/job_profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Intern "
+                    android:layout_toRightOf="@+id/job_profile"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profile:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Core "
+                    android:layout_toRightOf="@+id/profile"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/salary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salary:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/salary_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12.4"
+                    android:layout_toRightOf="@+id/salary"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/salary_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salary Description:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/salary_description_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stipend Rs 21000 PM during internship then CTC Rs 11.4 LPA "
+                    android:layout_toRightOf="@+id/salary_description"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/expected_Start_Time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expected Start Time:"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/expected_Start_Time_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 PM"
+                    android:layout_toRightOf="@+id/expected_Start_Time"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/comm_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comm. Date:"
+                    android:textColor="@color/appcolor"/>
+                <TextView
+                    android:textColor="@color/appcolor"
+                    android:id="@+id/comm_date_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Will be Notified Later"
+                    android:layout_toRightOf="@+id/comm_date"
+                    android:layout_marginLeft="5dp"/>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

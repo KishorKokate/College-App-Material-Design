@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:textAllCaps="true"
+                android:id="@+id/company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Company Name"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/venue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="12sp"
+                android:text="Venue:"
+                />
+
+            <TextView
+                android:id="@+id/venue_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/venue"
+                android:text="Venue Name"
+                android:textSize="12sp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/stream"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="12sp"
+                android:text="Stream:"
+                />
+
+            <TextView
+                android:id="@+id/stream_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/stream"
+                android:text="Stream Name"
+                android:textSize="12sp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/Package"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="14sp"
+                android:text="Package:"
+                />
+
+            <TextView
+                android:id="@+id/Package_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/Package"
+                android:text="Package Name"
+                android:textSize="14sp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/drive_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="14sp"
+                android:text="Drive Date:"
+                android:textColor="@color/appcolor"
+                />
+
+            <TextView
+                android:id="@+id/drive_date_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/drive_date"
+                android:text="Date"
+                android:textColor="@color/appcolor"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/registerby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="14sp"
+                android:text="Register By:"
+                android:textColor="@color/appcolor"
+                />
+
+            <TextView
+                android:id="@+id/registerby_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/registerby"
+                android:textColor="@color/appcolor"
+                android:text="Date"
+                android:textSize="14sp"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/view_job_profile_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View job profile"
+            android:textAllCaps="true"
+            android:layout_marginHorizontal="25dp"
+            android:background="@drawable/btn_round"
+            android:layout_marginVertical="20dp"
+            android:elevation="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

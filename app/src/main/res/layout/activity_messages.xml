@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Messages">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+       <ImageView
+           android:onClick="callDashBoard"
+           android:layout_width="35dp"
+           android:layout_height="30dp"
+           android:src="@drawable/back_icon"
+           android:layout_margin="10dp"
+           android:tint="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Messages"
+            android:gravity="center"
+            android:layout_marginRight="55dp"
+            android:textSize="20dp"
+
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/message_rcv"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

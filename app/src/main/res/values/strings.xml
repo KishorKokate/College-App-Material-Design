@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">CollegeApp</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="retailer_heading">Grow</string>
+    <string name="retailer_heheadading">Your Business</string>
+    <string name="retailer_tag_line">We will help you to grow your business using online services!</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="how_we_work">How we Work?</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="forget_password_detail">Provide your accounts email for which you want to reset your password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="Statement1">I have not shared my UMS password with anyone.</string>
+    <string name="Statement2">I am responsible for the content typed in query.</string>
+    <string name="Statement3">I understand that necessary disciplinary action can be initiated against me in case of use of derogatory words or false statement against any Student/Faculty/Staff/Authority.</string>
+    <string name="Statement4">I am responsible for the content typed in query</string>
+    <string name="title_activity_r_m_s">RMSActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+    <string-array name="MessageType">
+        <item>Grievance</item>
+        <item>Request</item>
+        <item>Enquiry</item>
+        <item>Feedback</item>
+    </string-array>
+    <string-array name="Department">
+        <item>Computer</item>
+        <item>Mechanical</item>
+        <item>IT</item>
+        <item>ENTC</item>
+    </string-array>
+
+    <string-array name="MasterCategory">
+        <item>Online Exams</item>
+        <item>Department</item>
+        <item>Administrative Office(Students)</item>
+        <item>Center For Professional Enhancement</item>
+        <item>Division of Academic Affairs</item>
+        <item>Division of Admissions</item>
+        <item>Division of Alumni Relations</item>
+        <item>Division of Career Services</item>
+        <item>Division of Examination Academic</item>
+        <item>Division of Finance</item>
+        <item>Division of Residential Services</item>
+        <item>Division of Security and Safety</item>
+        <item>Division of Student Welfare</item>
+        <item>Division of Vendore and Contractor Management</item>
+
+        <item>House Keeping</item>
+
+        <item>Library</item>
+        <item>Maintenance Complaints</item>
+        <item>Transport</item>
+    </string-array>
+
+    <string-array name="OnlineExam">
+        <item>Online Exam</item>
+
+    </string-array>
+
+    <string-array name="Administrative">
+        <item>Concerns related to Faculty/Staff</item>
+    </string-array>
+
+    <string-array name="CenterForProfessionalEnhancement">
+        <item>Computer</item>
+        <item>Mechanical</item>
+        <item>IT</item>
+        <item>ENTC</item>
+    </string-array>
+
+    <string-array name="DivisionofAcademicAffairs">
+        <item>Academics</item>
+    </string-array>
+
+    <string-array name="DivisionofAdmissions">
+        <item>Admissions</item>
+    </string-array>
+    <string-array name="DivisionofAlumniRelations">
+        <item>Alumini Cell</item>
+    </string-array>
+    <string-array name="DivisionofCareerServices">
+        <item>Placement</item>
+    </string-array>
+    <string-array name="DivisionofExaminationAcademic">
+        <item>Academics(Operational Issues)</item>
+        <item>Examination</item>
+        <item>Records(Certificates/Verification</item>
+        <item>Scholarship Information and Verification</item>
+
+    </string-array>
+    <string-array name="DivisionofFinance">
+        <item>Fee Accounts</item>
+    </string-array>
+    <string-array name="DivisionofResidentialServices">
+        <item>Residential Services(Hostel/Allotment/Transfer)</item>
+    </string-array>
+    <string-array name="DivisionofSecurityandSafety">
+        <item>Sector (Building)</item>
+    </string-array>
+    <string-array name="DivisionofStudentWelfare">
+        <item>Community Service Cell</item>
+        <item>Department of Cultural Affairs</item>
+        <item>Department of Sports</item>
+        <item>Department of Youth Capital</item>
+        <item>Student Entertainment And Event Managment Cell</item>
+        <item>Student Organisation Cell</item>
+
+    </string-array>
+    <string-array name="DivisionofVendoreandContractorManagement">
+        <item>Vendor</item>
+    </string-array>
+    <string-array name="HouseKeeping">
+        <item>House Keeping</item>
+    </string-array>
+    <string-array name="Library">
+        <item>Library</item>
+    </string-array>
+
+    <string-array name="MaintenanceComplaints">
+        <item>Maintenance Complaints</item>
+    </string-array>
+
+    <string-array name="Transport">
+        <item>Behaviour of Staff</item>
+        <item>Seat Allocation/De Allocation</item>
+        <item>Transport Fee/Charges</item>
+        <item>Pick Up Point/Bus Stop </item>
+        <item>Schedule/Timing</item>
+        <item>Any Other Issue</item>
+
+    </string-array>
+    <string name="title_activity_happening_onclick">HappeningOnclickActivity</string>
+    <string name="title_activity_time_table">TimeTable</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    <string name="mtitle1">Reminder to complete current Level in third party practice platform</string>
+    <string name="mtitle2">Online Assignment 3</string>
+    <string name="mtitle3">Online Assignment 1</string>
+    <string name="mtitle4">Online Assignment 1</string>
+    <string name="mtitle5">Reminder to complete current Level in third party practice platform</string>
+
+
+    <string name="mdesc1">Dear Students, It is inform you that you have not cleared your current level of Hitbullseye platform .Kindly adhere the given dealine as today is the last date to complete your current level.  </string>
+    <string name="mdesc2">Dear Students, It is inform you that you have not cleared your current level of Hitbullseye platform .Kindly adhere the given dealine as today is the last date to complete your current level.  </string>
+    <string name="mdesc3">Dear Students, It is inform you that you have not cleared your current level of Hitbullseye platform .Kindly adhere the given dealine as today is the last date to complete your current level.  </string>
+    <string name="mdesc4">Dear Students, It is inform you that you have not cleared your current level of Hitbullseye platform .Kindly adhere the given dealine as today is the last date to complete your current level.  </string>
+    <string name="mdesc5">Dear Students, It is inform you that you have not cleared your current level of Hitbullseye platform .Kindly adhere the given dealine as today is the last date to complete your current level.  </string>
+
+    <string name="msend1">Teacher Name</string>
+
+    <string name="mdate">(Mar 15,2021)</string>
+
+
+    <string name="tc1">1.I shall abide by all the provisions of the Lovely Professional University Act, Statutes, Ordinances, Regulations, Rules, Orders, Instructions, Information, Guidelines, Manuals, Code, Circulars etc. in force and as amended from time to time (hereinafter jointly referred to as “the Provisions”) of and/or framed by the Lovely Professional University and Lovely International Trust and their Institutes, Schools, Departments, Divisions, Centers, other constituent units, establishments and facilities including hostels, transportation etc. and concerned authorities, officers, assigns and employees ( hereinafter referred to as “the University”). The University will be at liberty to impose any penalty or any disciplinary action(s) on me being found guilty of, any sort of misconduct or indiscipline or disobedience or malpractice within or outside the precincts of the University, or any act which is detrimental to the interest of the University. The University, in such case, may discontinue my stay in the University and I shall not be entitled for any refund of admission fee, hostel fee, bus fee and any other fee / charges paid to the University and I shall also be liable to pay the pending fee, dues, penalty, etc.</string>
+    <string name="tc2">2.I shall avail the transport facility for the full academic session (i.e. Two Semsters ) and if due to any reason I withdraw this facility during the academic session, I shall be liable to pay the fee and other charges for the full academic year.</string>
+    <string name="tc3">3.I shall board the transport vehicle from the assigned boarding point/location only and being found of boarding from another route, I shall be liable to face any disciplinary action and/or penalty to be taken against me by the University.</string>
+    <string name="tc4">4.I shall carry the transport identity card all the time while boarding the transport vehicle. I understand that the University has the authority to check the transport identity card at any time and if found, I shall be liable to any disciplinary action and/or penalty as may be decided by the University.</string>
+    <string name="tc5">5.I am aware that ragging is a criminal offence and is strictly prohibited. I shall not indulge directly or indirectly in any case of ragging in or outside the campus of the University. If I indulge in ragging, the University may take appropriate disciplinary action (including rustication/expulsion from the University)</string>
+    <string name="tc6">6.I shall be liable to pay for any damage caused by me to the transport vehicle and/or the property of the University either alone or jointly with others and face disciplinary action.</string>
+    <string name="tc7">7.The University shall not be liable for any damage, loss, accident, and/or mishappening, suffered by me, during the transit time.
+I shall make the required adjustments for my transport facility as per the specific requirements of the University for a specific time due to any reason, whatever it may be.</string>
+    <string name="tc8">8.I shall be liable to pay the transport charges/fee for the industrial visits,tours,bridge courses,workshops,practical,training,placement visits or for visiting such other place/events as may be specified by the University from time to time.</string>
+    <string name="tc9">9.The University shall be entitled to carry out the inspection of the transport vehicle at any time within or outside the precincts of the University.
+All type of charges and fee relating to the transport facility are subject to revision by the University from time to time.</string>
+    <string name="tc10">10.For any unforeseen issues arising, that is not covered by this Undertaking, or in respect of all the matters, not expressly provided herein, the University may take an appropriate decision that shall be final and binding on all the concerned.</string>
+    <string name="tc11">11.I am giving this undertaking with full understanding and state that the information given by me above are true and complete to the best of my knowledge and belief and the certificates, documents and other information submitted by me are genuine and nothing has been concealed / suppressed. I understand that if any of the statements made by me above is found incorrect, I shall be liable to such disciplinary action(s) and/ or penalty as may be decided by the University, notwithstanding legal action under the law of the land. In such case, the hostel fee and other charges deposited by me shall be forfeited.</string>
+
+
+
+
+</resources>

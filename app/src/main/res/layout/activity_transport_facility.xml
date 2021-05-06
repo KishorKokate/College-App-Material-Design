@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TransportFacility">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="5dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/timetable_back_icon"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:onClick="callDashBoard"
+            android:src="@drawable/back_icon"
+            android:tint="@color/black" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Transpor Facility Preference"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus Route:"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            />
+        <Spinner
+            android:entries="@array/MessageType"
+            android:elevation="5dp"
+            android:id="@+id/bus_route_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pickup point:"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            />
+        <Spinner
+            android:entries="@array/MessageType"
+            android:elevation="5dp"
+            android:id="@+id/pickup_point_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Annual Charges(Rs.):"
+            android:textColor="@color/black"
+
+            android:id="@+id/annualcharges"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="price"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="horizontal">
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/check1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to"
+            >
+
+        </com.google.android.material.checkbox.MaterialCheckBox>
+        <Button
+            android:background="#00000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+            android:id="@+id/terms_condition"
+            android:layout_marginLeft="5dp"
+            android:textColor="#4597D5"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_round"
+        android:layout_marginHorizontal="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="SUBMIT"
+        android:textSize="16sp"
+        android:elevation="8dp"/>
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

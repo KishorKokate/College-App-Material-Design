@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TimeTable">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:elevation="5dp">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:src="@drawable/back_icon"
+            android:tint="@color/black"
+            android:layout_centerVertical="true"
+            android:id="@+id/timetable_back_icon"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Table"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="25sp"
+            android:fontFamily="@font/baloo"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/appcolor"
+            app:tabTextColor="@color/black"
+            app:tabSelectedTextColor="@color/white"
+            android:scrollbars="horizontal"
+            app:tabMode="scrollable"
+
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/white"
+            android:id="@+id/tablayout1">
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/monday"
+                android:layout_marginRight="10dp"
+                android:text="Monday"/>
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tuesday"
+                android:layout_marginRight="10dp"
+                android:text="Tuesday"/>
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wednesday"
+                android:layout_marginRight="10dp"
+                android:text="wednesday"/>
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/thursday"
+                android:layout_marginRight="10dp"
+                android:text="Thursday"/>
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/friday"
+                android:layout_marginRight="10dp"
+                android:text="Friday"/>
+
+        </com.google.android.material.tabs.TabLayout>
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vpager"/>
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/home_icon"
+        android:iconTint="@color/black"
+        android:checked="true"
+        android:title="DashBoard"
+        app:cnb_backgroundColor="#EAB632" />
+    <item
+        android:id="@+id/menu_happening"
+        android:icon="@drawable/happening_icon"
+        android:iconTint="@color/black"
+        android:title="Happenings"
+        app:cnb_backgroundColor="#EAB632" />
+    <item
+        android:id="@+id/menu_rms"
+        android:icon="@drawable/rms_icon"
+        android:iconTint="@color/black"
+        android:title="RMS"
+        app:cnb_backgroundColor="#EAB632" />
+    <item
+        android:id="@+id/menu_quick_quiz"
+        android:icon="@drawable/quick_quiz_icon"
+        android:iconTint="@color/black"
+        android:title="Quick Quiz"
+        app:cnb_backgroundColor="#EAB632" />
+
+</menu>

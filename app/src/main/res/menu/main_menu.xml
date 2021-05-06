@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_icon"
+            android:iconTint="@color/black"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+
+            android:iconTint="@color/black"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_admission_enquiry"
+
+            android:icon="@drawable/enquiry_icon"
+            android:iconTint="@color/black"
+            android:title="Andmission Enquiry" />
+        <item
+            android:id="@+id/nav_announcement"
+
+            android:icon="@drawable/announcement_icon"
+            android:iconTint="@color/black"
+            android:title="Announcement" />
+        <item
+            android:id="@+id/nav_assignment_marks"
+
+            android:icon="@drawable/marks_icon"
+            android:iconTint="@color/black"
+            android:title="Assignment Marks" />
+        <item
+            android:id="@+id/nav_attendance"
+
+            android:icon="@drawable/attendance_icon"
+            android:iconTint="@color/black"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_campus_tour"
+
+            android:icon="@drawable/campus_tour_icon"
+            android:iconTint="@color/black"
+            android:title="Campus Tour" />
+        <item
+            android:id="@+id/nav_book_appointment"
+
+            android:icon="@drawable/book_apponitment_icon"
+            android:iconTint="@color/black"
+            android:title="Book Appointment" />
+        <item
+            android:id="@+id/nav_Events"
+
+            android:icon="@drawable/event_icon"
+            android:iconTint="@color/black"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_fee_payment"
+
+            android:icon="@drawable/fee_icon"
+            android:iconTint="@color/black"
+            android:title="Fee Payment" />
+        <item
+            android:id="@+id/nav_feedback_survey"
+
+            android:icon="@drawable/feedback_icon"
+            android:iconTint="@color/black"
+            android:title="Feedback and Survey" />
+        <item
+            android:id="@+id/nav_lab_feedback"
+
+            android:icon="@drawable/feedback_icon"
+            android:iconTint="@color/black"
+            android:title="Lab Feedback" />
+        <item
+            android:id="@+id/nav_lecture_feedback"
+
+            android:icon="@drawable/feedback_icon"
+            android:iconTint="@color/black"
+            android:title="Lecture Feedback" />
+        <item
+            android:id="@+id/nav_library_search"
+
+            android:icon="@drawable/library_search_icon"
+            android:iconTint="@color/black"
+            android:title="Library Search" />
+        <item
+            android:id="@+id/nav_messages"
+
+            android:icon="@drawable/message_icon"
+            android:iconTint="@color/black"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_quick_quiz"
+
+            android:icon="@drawable/quick_quiz_icon"
+            android:iconTint="@color/black"
+            android:title="Quick Quiz" />
+        <item
+            android:id="@+id/nav_railway_concession_form"
+
+            android:icon="@drawable/rail_form_icon"
+            android:iconTint="@color/black"
+            android:title="Railway Concession Form" />
+        <item
+            android:id="@+id/nav_result"
+
+            android:icon="@drawable/result_icon"
+            android:iconTint="@color/black"
+            android:title="Result" />
+        <item
+            android:id="@+id/nav_teacher_on_leave"
+
+            android:icon="@drawable/teacher_leave_icon"
+            android:iconTint="@color/black"
+            android:title="Teacher On Leave" />
+        <item
+            android:id="@+id/nav_transport_facility"
+
+            android:icon="@drawable/transport_facility_icon"
+            android:iconTint="@color/black"
+            android:title="Transpoprt Facility Preference" />
+        <item
+            android:id="@+id/nav_touch_id"
+
+            android:icon="@drawable/touch_icon"
+            android:iconTint="@color/black"
+            android:title="Touch ID" />
+
+    </group>
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/nav_profile"
+
+                    android:icon="@drawable/profile_icon"
+                    android:iconTint="@color/black"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_logout"
+
+                    android:icon="@drawable/logout_icon"
+                    android:iconTint="@color/black"
+                    android:title="Logout" />
+
+            </group>
+
+        </menu>
+    </item>
+    <item android:title="Share">
+
+        <menu>
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/nav_share"
+
+                    android:icon="@drawable/share_icon"
+                    android:iconTint="@color/black"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_rateus"
+
+                    android:icon="@drawable/rateus_icon"
+                    android:iconTint="@color/black"
+                    android:title="Rate Us" />
+            </group>
+
+
+        </menu>
+    </item>
+</menu>
